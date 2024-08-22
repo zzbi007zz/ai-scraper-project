@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Configure OpenAI API
 const openai = new OpenAI({
-    apiKey: 'sk-svcacct-Ti6Ym6GAlvFBw4kOkck6kkZKhy93653ZDyJ5tKLzZG4OxT3BlbkFJPzABkrVuGLJEN4XHsDs1aK7otFyPqmHNTsJ6_g59kMEaQA',
+    apiKey: 'YOUR_API_KEY',
     baseURL: 'https://api.openai.com/v1',
 });
 
